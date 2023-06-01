@@ -4,3 +4,5 @@
 <p>React Final Form è una libreria pensata per essere <b>Modulare</b>, <b>Senza Dependencies</b>, <b>ad Alte Performance</b> e <b>Compatibile con gli Hook.</b>
 
 <span>N.B. I dati del form verranno salvati in LocalStorage</span>
+
+<img src="./reactfinalform.png" alt="react final form">
