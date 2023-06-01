@@ -7,6 +7,7 @@ const FinalForm= () => {
   const[form] = useState([])
 
   const onSubmit = (values) => { // Effettua l'elaborazione dei dati o invia i dati al server
+    console.log(values)
     form.push(values)
     localStorage.setItem("Registrazione", JSON.stringify(form))
   }
@@ -112,7 +113,7 @@ const FinalForm= () => {
         </form>
       )}
     />
-  );
+  )
 }
 
 export default FinalForm
